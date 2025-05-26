@@ -1,5 +1,5 @@
 {
-  "name": "html2pdf.js",
+  "name": "@artificialonlinesao/html2pdf.js",
   "version": "0.10.3",
   "description": "Client-side HTML-to-PDF rendering using pure JS",
   "main": "dist/html2pdf.js",
@@ -7,7 +7,6 @@
     "/src",
     "/dist"
   ],
-  "repository": "git@github.com:eKoopmans/html2pdf.js.git",
   "keywords": [
     "javascript",
     "pdf-generation",
@@ -15,16 +14,15 @@
     "client-side",
     "canvas"
   ],
+  "publishConfig": {
+    "@artificialonlinesao:registry": "https://npm.pkg.github.com/"
+  },
   "author": {
     "name": "Erik Koopmans",
     "email": "erik@erik-koopmans.com",
     "url": "https://www.erik-koopmans.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/eKoopmans/html2pdf.js/issues"
-  },
-  "homepage": "https://ekoopmans.github.io/html2pdf.js/",
   "dependencies": {
     "es6-promise": "^4.2.5",
     "html2canvas": "^1.0.0",
